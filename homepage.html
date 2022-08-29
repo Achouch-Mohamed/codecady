@@ -1,184 +1,217 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="icons-1.5.0/icons">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="icons-1.5.0/icons" />
     <link
       rel="stylesheet"
       href="https://use.fontawesome.com/releases/v5.13.0/css/all.css"
       integrity="sha384-Bfad6CLCknfcloXFOyFnlgtENryhrpZCe29RTifKEixXQZ38WheV+i/6YWSzkz3V"
       crossorigin="anonymous"
     />
-    <link rel="stylesheet" href="javascript.js">
-    <title>codecademy</title>
-</head>
-<body>
-         <div class="menu" id="menu">
-           <script>
-             if(document.body.scroll >= 23){
-                   document.getElementById('menu').background.style.backgroundColor = "red";
-                  }else{
-                    document.getElementById('menu').background.style.backgroundColor = "green";
-                  }
-           </script>
-           <div class="logodiv">
-           <h3 class="logo"><span id="firstspan">Code</span><span id="lastspan">C</span>ademy</h3>  
-           </div>         
-         <ul class="nav">
-             <li>Catalog</li>
-             <li class="resources">Resources
-                <div class="dropdownrecours">
-                    <a>Docs</a>  
-                    <a>Articles</a>  
-                    <a>Projects</a>  
-                    <a>Cheatsheets</a> 
-                    <a>Blog</a> 
-               </div>
-             </li>          
-             <li class="community">Community
-                 <div class="dropdown-community">
-                    <a>Forums</a>  
-                    <a>Chat</a>  
-                    <a>Chapters</a>  
-                    <a>Events</a>                    
-                 </div>
-             </li>
-             <li  class="pro-pricing">Pro Pricing
-                <div class="dropdown-pro-pricing">
-                    <a> For Individuals</a>  
-                    <a>For Students</a>                                 
-                 </div> 
-             </li>
-              <li>For Business</li>
-         </ul>
-         <img src="icons-1.5.0/icons/search.svg" alt="" class="imgsearchmenu">
-         <a class="login" href="#">Log In</a>
-         
-       </div>
-       <div class="div-search">
-        <img src="icons-1.5.0/icons/search.svg" alt="" class="imgsearch">
-           <input type="text" class="input-search" placeholder="Search Our Catalog">
-         <h5 class="popular-searches">Popular Searches</h5>
-         <div class="langage"> 
+    <link rel="stylesheet" href="javascript.js" />
+    <title>Mohamed Achouch</title>
+  </head>
+  <body>
+    <div class="menu" id="menu">
+      <script>
+        if (document.body.scroll >= 23) {
+          document.getElementById("menu").background.style.backgroundColor =
+            "red";
+        } else {
+          document.getElementById("menu").background.style.backgroundColor =
+            "green";
+        }
+      </script>
+      <div class="logodiv">
+        <h3 class="logo">
+          <span id="firstspan">Code</span><span id="lastspan">C</span>ademy
+        </h3>
+      </div>
+      <ul class="nav">
+        <li>Catalog</li>
+        <li class="resources">
+          Resources
+          <div class="dropdownrecours">
+            <a>Docs</a>
+            <a>Articles</a>
+            <a>Projects</a>
+            <a>Cheatsheets</a>
+            <a>Blog</a>
+          </div>
+        </li>
+        <li class="community">
+          Community
+          <div class="dropdown-community">
+            <a>Forums</a>
+            <a>Chat</a>
+            <a>Chapters</a>
+            <a>Events</a>
+          </div>
+        </li>
+        <li class="pro-pricing">
+          Pro Pricing
+          <div class="dropdown-pro-pricing">
+            <a> For Individuals</a>
+            <a>For Students</a>
+          </div>
+        </li>
+        <li>For Business</li>
+      </ul>
+      <img src="icons-1.5.0/icons/search.svg" alt="" class="imgsearchmenu" />
+      <a class="login" href="#">Log In</a>
+    </div>
+    <div class="div-search">
+      <img src="icons-1.5.0/icons/search.svg" alt="" class="imgsearch" />
+      <input
+        type="text"
+        class="input-search"
+        placeholder="Search Our Catalog"
+      />
+      <h5 class="popular-searches">Popular Searches</h5>
+      <div class="langage">
+        <a>Data Science</a>
+        <a>Python</a>
+        <a>Web Development</a>
+        <a>HTML</a>
+        <a>Java</a>
+        <a class="helpcenter">Help Center</a>
+      </div>
+    </div>
+    <div class="divbodytop">
+      <div class="divimg">
+        <img src="imgidv.png" alt="" style="position: absolute" />
+      </div>
+      <div class="divinput">
+        <p class="paragraph">
+          Join the millions learning to code with Codecademy for free
+        </p>
+        <label for="" id="lblemail">Email</label>
+        <input type="text" name="" id="email" />
+        <label for="" id="lblpassword">Password</label>
+        <input type="password" name="" id="password" />
+        <input type="button" value="Sing Up" name="" id="btn" />
+        <p class="p-link">
+          By signing up for Codecademy, you agree to Codecademy's
+          <a href="#">Terms of Service</a> & <a href="#">Privacy Policy.</a>
+        </p>
 
-             <a>Data Science</a>
-             <a>Python</a>
-             <a>Web Development</a>
-             <a>HTML</a>
-             <a>Java</a>
-             <a class="helpcenter">Help Center</a>             
-         </div>
-       </div>
-       <div class="divbodytop">
-           <div class="divimg">
-            <img src="imgidv.png" alt="" style="position: absolute;">
-           </div>
-           <div class="divinput">
-                <p class="paragraph">
-                    Join the millions learning to code with Codecademy for free
-                </p>
-                <label for=""id="lblemail" >Email</label>
-                <input type="text" name="" id="email">
-                <label for="" id="lblpassword">Password</label>
-                <input type="password" name="" id="password">
-                <input type="button" value="Sing Up" name="" id="btn">
-                <p class="p-link">By signing up for Codecademy, you agree to Codecademy's <a href="#">Terms of Service</a> & <a href="#">Privacy Policy.</a></p>
-                
-                <h4>Or sign up using:</h4>
-                <div class="social-media">
-                    
-                  <div class="linkdIn">
-                    <i class="fab fa-linkedin"></i>
-                  </div>
-                  <div  class="google">
-                    <i class="fab fa-google"></i>
-                </div>
-                <div class="facebook">
-                  <i class="fab fa-facebook-square"></i>
-                </div>
-                <div class="githup">
-                  <i class="fab fa-github-square"></i>
-                </div>
-                </div>
-        </div>
-       </div>
-       <div class="parent-div">
-        <div class="div-javascript">
-             <div>
-                   <p>Explore All</p>
-                   <h3>javascript</h3>
-             </div>
-        </div>
-        <div class="div-python">
-          <div>
-            <p>Explore All</p>
-            <h3>Python</h3>
+        <h4>Or sign up using:</h4>
+        <div class="social-media">
+          <div class="linkdIn">
+            <i class="fab fa-linkedin"></i>
+          </div>
+          <div class="google">
+            <i class="fab fa-google"></i>
+          </div>
+          <div class="facebook">
+            <i class="fab fa-facebook-square"></i>
+          </div>
+          <div class="githup">
+            <i class="fab fa-github-square"></i>
           </div>
         </div>
-        <div class="div-web-develement">
-          <div>
-            <p>Explore All</p>
-            <h3>Web <br>Develement</h3>
-          </div>
-        </div>
-        <div class="div-data-science">
-          <div>
-            <p>Explore All</p>
-            <h3>DataScience</h3>
-          </div>
-        </div>
-       </div>
-      <div class="divyelow">
-       <div class="divspan">
-         <span class="firststeps"> First steps</span>
-         <span class="not-sure-where-to-begin">Not sure where to begin?</span>
-         <span style="font-weight: 400;">No need to worry, our quiz will help you make sense of it all.</span> 
-         <input type="submit" value="Take our quiz" class="take-our-kiz">
-       </div>
-       <div class="imgdiv">
-        <img src="https://www.codecademy.com/webpack/b12b906ec05fe653d3bfe500adccd4c5.svg">
       </div>
+    </div>
+    <div class="parent-div">
+      <div class="div-javascript">
+        <div>
+          <p>Explore All</p>
+          <h3>javascript</h3>
+        </div>
       </div>
+      <div class="div-python">
+        <div>
+          <p>Explore All</p>
+          <h3>Python</h3>
+        </div>
+      </div>
+      <div class="div-web-develement">
+        <div>
+          <p>Explore All</p>
+          <h3>Web <br />Develement</h3>
+        </div>
+      </div>
+      <div class="div-data-science">
+        <div>
+          <p>Explore All</p>
+          <h3>DataScience</h3>
+        </div>
+      </div>
+    </div>
+    <div class="divyelow">
+      <div class="divspan">
+        <span class="firststeps"> First steps</span>
+        <span class="not-sure-where-to-begin">Not sure where to begin?</span>
+        <span style="font-weight: 400"
+          >No need to worry, our quiz will help you make sense of it all.</span
+        >
+        <input type="submit" value="Take our quiz" class="take-our-kiz" />
+      </div>
+      <div class="imgdiv">
+        <img
+          src="https://www.codecademy.com/webpack/b12b906ec05fe653d3bfe500adccd4c5.svg"
+        />
+      </div>
+    </div>
 
-      <div class="divtext">
-        <div class="spantext">
-               <span class="span1">How it works</span>
-               <span class="span2"> First, we invented the best system for learning to code.</span>
-               <span class="span3">Ten years and 50 million learners later, we've perfected it.</span>
+    <div class="divtext">
+      <div class="spantext">
+        <span class="span1">How it works</span>
+        <span class="span2">
+          First, we invented the best system for learning to code.</span
+        >
+        <span class="span3"
+          >Ten years and 50 million learners later, we've perfected it.</span
+        >
+      </div>
+      <div class="divtext2">
+        <div class="div1">
+          <span>Learn by doing</span>
+          <span class="building"
+            >From building websites to analyzing data, the choice is yours. No
+            matter your experience level, you'll be writing real, working code
+            in minutes.</span
+          >
         </div>
-        <div class="divtext2">
-              <div class="div1">
-                <span>Learn by doing</span>
-                <span class="building">From building websites to analyzing data, the choice is yours. No matter your experience
-                   level, you'll be writing real, working code in minutes.</span>
-              </div>
-              <div class="div2">
-                <span class="feedback">Get instant feedback
-                 </span>
-                <span class="tested"> Your code is tested as soon as you submit it, so you always know if you're on the right track.</span>
-              </div>
-              <div class="div3">
-                <span class="learning">Put your learning into practice</span>
-                <span class="real-world">Apply your learning with real-world projects and learn everything you need to take your career to the next level.</span>
-              </div>
+        <div class="div2">
+          <span class="feedback">Get instant feedback </span>
+          <span class="tested">
+            Your code is tested as soon as you submit it, so you always know if
+            you're on the right track.</span
+          >
+        </div>
+        <div class="div3">
+          <span class="learning">Put your learning into practice</span>
+          <span class="real-world"
+            >Apply your learning with real-world projects and learn everything
+            you need to take your career to the next level.</span
+          >
         </div>
       </div>
-      <div class="div-blue">
-         <div class="imgdiv">
-           <img src="https://www.codecademy.com/webpack/27525026eeb382d470ebac72a8d90846.svg" alt="">
-         </div>
-         <div class="div-text2">
-         <span class="firstspan">It's time to start investing in yourself</span>
-         <span class="lastspan">Because learning to code might be the easiest way to change your career.</span>
-         <input type="submit" name="" id="btn-getstarted" value="Get Started" >
-        </div>
+    </div>
+    <div class="div-blue">
+      <div class="imgdiv">
+        <img
+          src="https://www.codecademy.com/webpack/27525026eeb382d470ebac72a8d90846.svg"
+          alt=""
+        />
       </div>
-     <div class="footer">
-       <div class="footer-left-div">
-        <div class="leftbox">             
+      <div class="div-text2">
+        <span class="firstspan">It's time to start investing in yourself</span>
+        <span class="lastspan"
+          >Because learning to code might be the easiest way to change your
+          career.</span
+        >
+        <input type="submit" name="" id="btn-getstarted" value="Get Started" />
+      </div>
+    </div>
+    <div class="footer">
+      <div class="footer-left-div">
+        <div class="leftbox">
           <ul>
             <li class="company-title">COMPANY</li>
             <li><a>About</a></li>
@@ -186,108 +219,115 @@
             <li>Affiliates</li>
             <li>Shop</li>
             <ul class="social">
-              <li><i class="fab fa-facebook"></i> </li> 
+              <li><i class="fab fa-facebook"></i></li>
               <li><i class="fab fa-instagram-square"></i></li>
               <li><i class="fab fa-youtube"></i></li>
-              <li><i class="fab fa-twitter"></i></li></ul>  
-            </ul>                      
-    </div>
-    <div class="middlebox">
-      <ul>
-        <li class="resources-title">RESOURCES</li>
-        <li>Docs</li>
-        <li>Cheatsheets</li>
-        <li>Projects</li>
-        <li>Articles</li>
-        <li>Blog</li>
-      </ul> 
-    </div>
-    <div class="rightbox">   
-      <ul>
-        <li class="community-title">COMMUNITY</li>
-        <li>Forums</li>
-        <li>Chapters</li>
-        <li>Event</li>
-      </ul> 
-         </div>   
-      <div class="bottom-left-div">
-        <ul class="one-ul">
-          <li style="margin-bottom: 20px;" class="mobile">MOBILE</li>
-          <li><img src="https://www.codecademy.com/webpack/88f2b695da0acbecad60ed9ea386b6b5.svg" alt=""></li>
-          <li><img src="https://www.codecademy.com/webpack/c2cb3310b4be600e8b5974fb025e84f1.png" alt=""></li>         
-        </ul> 
-        <ul class="two-ul">
-          <li style="margin-bottom: 20px;" class="individual">INDIVIDUAL PLANS</li>
-          <li style="margin-bottom: 10px;">Pro Membership</li>
-          <li>For Students</li> 
-          <li style="margin-top:
-           30px;margin-bottom: 20px;" class="suopport">SUPPORT</li>
-          <li >Help Center</li>         
-        </ul>         
-        
-        <ul class="three-ul">
-          <li style="margin-bottom: 20px;" class="enterprie">ENTERPRISE PLANS
-           </li>
-          <li> For Business</li>
-       
-        </ul> 
+              <li><i class="fab fa-twitter"></i></li>
+            </ul>
+          </ul>
+        </div>
+        <div class="middlebox">
+          <ul>
+            <li class="resources-title">RESOURCES</li>
+            <li>Docs</li>
+            <li>Cheatsheets</li>
+            <li>Projects</li>
+            <li>Articles</li>
+            <li>Blog</li>
+          </ul>
+        </div>
+        <div class="rightbox">
+          <ul>
+            <li class="community-title">COMMUNITY</li>
+            <li>Forums</li>
+            <li>Chapters</li>
+            <li>Event</li>
+          </ul>
+        </div>
+        <div class="bottom-left-div">
+          <ul class="one-ul">
+            <li style="margin-bottom: 20px" class="mobile">MOBILE</li>
+            <li>
+              <img
+                src="https://www.codecademy.com/webpack/88f2b695da0acbecad60ed9ea386b6b5.svg"
+                alt=""
+              />
+            </li>
+            <li>
+              <img
+                src="https://www.codecademy.com/webpack/c2cb3310b4be600e8b5974fb025e84f1.png"
+                alt=""
+              />
+            </li>
+          </ul>
+          <ul class="two-ul">
+            <li style="margin-bottom: 20px" class="individual">
+              INDIVIDUAL PLANS
+            </li>
+            <li style="margin-bottom: 10px">Pro Membership</li>
+            <li>For Students</li>
+            <li style="margin-top: 30px; margin-bottom: 20px" class="suopport">
+              SUPPORT
+            </li>
+            <li>Help Center</li>
+          </ul>
+
+          <ul class="three-ul">
+            <li style="margin-bottom: 20px" class="enterprie">
+              ENTERPRISE PLANS
+            </li>
+            <li>For Business</li>
+          </ul>
+        </div>
       </div>
 
-       </div>
-            
-     
-       <div class="footer-right-div">
-         <ul>
-           <li class="course">COURSE CATALOG</li>
-           <li class="bold">Subjects</li>
-           <li>Web Development</li>
-           <li>Data Science</li>
-           <li>Computer Science</li>
-           <li>Developer Tools</li>
-           <li>Machine Learning</li>
-           <li>Code Foundations</li>
-           <li>Web Design</li>
-           <li class="slach">—</li>
-           <li>Full Catalog</li>
-           <li>Beta Content</li>
+      <div class="footer-right-div">
+        <ul>
+          <li class="course">COURSE CATALOG</li>
+          <li class="bold">Subjects</li>
+          <li>Web Development</li>
+          <li>Data Science</li>
+          <li>Computer Science</li>
+          <li>Developer Tools</li>
+          <li>Machine Learning</li>
+          <li>Code Foundations</li>
+          <li>Web Design</li>
+          <li class="slach">—</li>
+          <li>Full Catalog</li>
+          <li>Beta Content</li>
           <li>Roadmap</li>
-         </ul>   
-           </div>
-           <ul class="languages">
-            <li class="boldlangages">Languages</li>
-            <li>HTML & CSS</li>
-            <li>Python</li>
-            <li>JavaScript</li>
-            <li>Java</li>
-            <li>SQL</li>
-            <li>Bash/Shell</li>
-            <li>Ruby</li>       
-          </ul>
-          <ul class="languages2">
-            <li>C++</li>
-            <li>R</li>
-            <li>C#</li>
-            <li>PHP</li>
-            <li>Go</li>
-            <li>Swift</li>
-            <li>Kotlin</li>
-          </ul>
-       <ul class="buttomul">
-         <li>Privacy Policy</li>
-         <li> Cookie Policy</li>
-         <li> Do Not Sell My Personal Information</li>
-         <li class="E">Terms</li> 
         </ul>
-        <ul class="buttomulright">
-          <li>Made with️❤️in NYC © 2021 </li>
-          <li class="linkcodecademy">Codecademy</li>
-        </ul>    
-        
-
-
-     </div>
-<script>
-
-</script>
-</body>
+      </div>
+      <ul class="languages">
+        <li class="boldlangages">Languages</li>
+        <li>HTML & CSS</li>
+        <li>Python</li>
+        <li>JavaScript</li>
+        <li>Java</li>
+        <li>SQL</li>
+        <li>Bash/Shell</li>
+        <li>Ruby</li>
+      </ul>
+      <ul class="languages2">
+        <li>C++</li>
+        <li>R</li>
+        <li>C#</li>
+        <li>PHP</li>
+        <li>Go</li>
+        <li>Swift</li>
+        <li>Kotlin</li>
+      </ul>
+      <ul class="buttomul">
+        <li>Privacy Policy</li>
+        <li>Cookie Policy</li>
+        <li>Do Not Sell My Personal Information</li>
+        <li class="E">Terms</li>
+      </ul>
+      <ul class="buttomulright">
+        <li>Made with️❤️in NYC © 2021</li>
+        <li class="linkcodecademy">Codecademy</li>
+      </ul>
+    </div>
+    <script></script>
+  </body>
 </html>
