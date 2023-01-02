@@ -1,2 +1,2 @@
 # codecady
-yhtml and css creation site like codecademy
+html and css creation site like codecademy
